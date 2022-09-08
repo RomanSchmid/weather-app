@@ -34,11 +34,11 @@ li {
 }
 
 #btn {
-    padding: 10px 30px;
+    padding: 10px 35px;
     border-radius: 10px;
     border: none;
     background-color: transparent;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 700;
     box-shadow: inset 0 0 10px white;
     color:white;
@@ -63,17 +63,18 @@ h2 {
 
 h1 {
     cursor: pointer;
+    font-size: 3rem;
 }
 
 h1::after {
     content: "▼";
-    font-size: 1.7rem;
+    font-size: 2.4rem;
     padding-left: 4px;
 }
 
 .another-city {
     display: none;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     cursor: pointer;
 }
 
