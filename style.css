@@ -58,3 +58,27 @@ h2 {
     font-size: 1rem;
     margin-top: 10px;
 }
+
+h1 {
+    cursor: pointer;
+}
+
+h1::after {
+    content: "▼";
+    font-size: 1.7rem;
+    padding-left: 4px;
+}
+
+.another-city {
+    display: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
