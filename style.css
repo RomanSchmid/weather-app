@@ -12,8 +12,9 @@ body {
     justify-content: center;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background: url(background.svg);
+    background: url("background.svg");
     background-size: cover;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .container {
@@ -33,10 +34,11 @@ li {
 }
 
 #btn {
-    padding: 9px;
+    padding: 10px 30px;
     border-radius: 10px;
     border: none;
     background-color: transparent;
+    font-size: 1rem;
     font-weight: 700;
     box-shadow: inset 0 0 10px white;
     color:white;
